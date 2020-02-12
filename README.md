@@ -5,7 +5,9 @@ Using Pipenv? Don't want to? Lets fix that.
 ## Why pip-tools?
 
 * pip-tools emits a `pip`-readable file so does not need to be installed in CI
-* pip-tools locks *much* faster
+* pip-tools locks *much* faster than Pipenv
+
+### Why not pipenv?
 * Pipenv manages virtual environments
     * ...and I prefer pyenv
     * ...in a tool-unfriendly way
